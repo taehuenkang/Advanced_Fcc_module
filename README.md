@@ -5,6 +5,9 @@
 
 ## 📌 Project Overview
 
+![image](https://github.com/user-attachments/assets/b1d8f2a5-029c-4671-a081-e7ef6f0ba905)
+
+
 This project implements a **hardware-accelerated Fully Connected Layer (FCC)** for CNNs using Verilog HDL.  
 It enhances the original multiplication-only FCC logic by supporting:
 
@@ -19,6 +22,7 @@ Designed to run on **Xilinx ZYBO Z7-20 (Zynq-7000 SoC)** using **Vivado + Vitis*
 
 ## 📁 Directory Structure
 
+
 Advanced_Fcc_module/
 ├── src/ # Verilog source files
 │ ├── fcc_module.v # Core multiply-accumulate logic
@@ -31,9 +35,6 @@ Advanced_Fcc_module/
 ├── sim/ # Vivado simulation outputs
 └── README.md # This file
 
-yaml
-복사
-편집
 
 ---
 
@@ -85,9 +86,6 @@ Software (C)	1898.18
 Hardware (FPGA)	41.64
 🔥 Speedup	~45x faster
 
-🎬 Demo
-📽️ [YouTube Demo Link (Optional)]
-📁 Simulation Report & Waveform Snapshots
 
 🛠️ To Build & Run
 🧱 Vivado
